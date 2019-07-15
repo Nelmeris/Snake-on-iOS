@@ -2,8 +2,8 @@
 //  Apple.swift
 //  Snake
 //
-//  Created by Артем on 11.04.2018.
-//  Copyright © 2018 NONE. All rights reserved.
+//  Created by Artem Kufaev on 11.04.2018.
+//  Copyright © 2018 Artem Kufaev. All rights reserved.
 //
 
 import UIKit

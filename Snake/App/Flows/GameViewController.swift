@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  Snake
 //
-//  Created by Артем on 11.04.2018.
-//  Copyright © 2018 NONE. All rights reserved.
+//  Created by Artem Kufaev on 11.04.2018.
+//  Copyright © 2018 Artem Kufaev. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         let scene = GameScene(size: view.bounds.size)
+        
+        self.view = SKView(frame: view.bounds)
         
         let scView = view as! SKView
         
@@ -38,12 +40,8 @@ class GameViewController: UIViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-    
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }
